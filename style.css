@@ -106,3 +106,15 @@ h5 {
     width: 250px;
     height: 180px;
 }
+.footer {
+    font-size: 1.9em;
+    text-align: center;
+}
+.address {
+    font-size: 0.8em;
+    font-style: normal;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(67, 163, 230);
+}
