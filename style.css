@@ -129,3 +129,11 @@ h5 {
     text-decoration: none;
     color: rgb(67, 163, 230);
 }
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+.section-text {
+    margin: 20px 0 20px 0;
+}
