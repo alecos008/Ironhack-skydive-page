@@ -71,6 +71,7 @@ h5 {
     background-size: cover;
     height: 650px;
     padding-top: 50px;
+    position: relative;
   
 }
 
@@ -81,6 +82,9 @@ h5 {
 
 .quote {
     font-size: 2.5em;
+    position: absolute;
+    left: 10%;
+    bottom: 100px;
 }
 
 .dark-background {
@@ -92,6 +96,10 @@ h5 {
     font-weight: 100;
     text-align: center;
 }
+#general-information {
+    display: flex;
+    justify-content: space-evenly;
+}
 .link-btn {
     background-color:rgb(67, 163, 230);
     color: white;
@@ -101,6 +109,7 @@ h5 {
     letter-spacing: 0.5px;
     text-align: center;
     text-decoration: none;
+    padding: 10px 30px 10px 30px;
 }
 .service-box {
     font-size: 1.7em;
@@ -179,4 +188,17 @@ td {
 }
 .footer-ul li {
     list-style-type: none;
+}
+#general-information .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+#structure > div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
