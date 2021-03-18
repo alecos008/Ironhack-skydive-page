@@ -31,12 +31,14 @@ h4{
     font-size: 1.5em;
     letter-spacing: 0.4px;
     line-height: 1em; 
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 h5 {
     font-size: 1.2em;
     line-height: 1em;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .nav-bar {
@@ -128,10 +130,13 @@ h5 {
 .footer {
     font-size: 1.9em;
     text-align: center;
+    padding: 40px 100px 40px 100px;
+    margin-bottom: 25px;
 }
 .address {
     font-size: 0.8em;
     font-style: normal;
+    margin-bottom: 30px;
 }
 .footer a {
     text-decoration: none;
@@ -144,4 +149,32 @@ h5 {
 }
 .section-text {
     margin: 20px 0 20px 0;
+}
+#team {
+    padding: 75px 0;
+    margin: 0 auto;
+}
+#team p {
+    width: 60%;
+    margin: 10px auto;
+}
+#team hr {
+    margin: 20px auto 30px auto;
+    width: 40%;
+}
+.schedule-table {
+    margin: 0 auto 40px auto;
+    font-size: 1.5em;
+}
+.schedule-table th,
+td {
+    border-bottom: solid 1px black;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
+.footer ul {
+    padding: 0;
+}
+.footer-ul li {
+    list-style-type: none;
 }
